@@ -15,6 +15,7 @@ driver:
 
 provisioner:
   name: chef_zero
+  product_version: <%= ENV['CHEF_VERSION'] || 'latest' %>
   attributes:
     storage:
       ebs_volumes:
