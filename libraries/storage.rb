@@ -1,4 +1,4 @@
-module EverTools
+module StorageCookbook
   class Storage
     def dev_names
       @dev_names ||= begin
